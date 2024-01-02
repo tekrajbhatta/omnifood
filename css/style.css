@@ -181,6 +181,35 @@ body {
 }
 
 /*****************************/
+/* FEATURED IN SECTION */
+/*****************************/
+
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.section-featured .logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-featured .logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 0.5;
+}
+
+/*****************************/
 /* HOW IT WORKS */
 /*****************************/
 
@@ -239,6 +268,7 @@ body {
 .step-img {
   width: 35%;
 }
+
 
 
 
