@@ -269,7 +269,33 @@ body {
   width: 35%;
 }
 
+/*****************************/
+/* MEALS SECTION */
+/*****************************/
 
+.section-meals {
+  padding: 9.6rem 0;
+}
 
+.meal-img {
+  width: 100%;
+}
 
+.meal-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+}
 
