@@ -36,6 +36,7 @@ Paragraph Default: 1.6
 
 --- 04 BORDER-RADIUS
 Default: 9px
+Medium: 11px;
 
 --- 05 WHITESPACE
 
@@ -277,8 +278,48 @@ body {
   padding: 9.6rem 0;
 }
 
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  /* background-color: red; */
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+
+.tag--vegan {
+  background-color: #94d828;
+}
+
+.tag--paleo {
+  background-color: #ffd43b;
+}
+
 .meal-img {
   width: 100%;
+  /* border-radius: 12px; */
 }
 
 .meal-title {
@@ -297,5 +338,13 @@ body {
 
 .meal-attribute {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  font-size: 2.4rem;
+  color: #e67e22;
 }
 
