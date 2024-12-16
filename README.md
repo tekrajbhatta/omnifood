@@ -1,85 +1,86 @@
 # Omnifood
 
-## About Omnifood
+Omnifood is a modern, responsive food delivery website built to showcase HTML, CSS, and JavaScript skills. The project features a clean design, interactive animations, and is optimized for all devices.
 
-We are a technology company with a major focus on consumer well-being through a healthy diet. Our mission is to make healthy eating easy and accessible for everyone, even those with the busiest schedules. Using an AI-centric approach, our app allows users to select their dietary preferences, and our AI algorithm generates a personalized weekly meal plan. Partnering with local restaurants and cooks, we prepare and deliver these meals to your door in selected cities. This service is available through a monthly subscription, with options for one or two meals per day.
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## Project Overview
+Omnifood is designed as a demonstration of a professional landing page for a food delivery business. It features:
+- A beautiful hero section
+- Responsive design for all screen sizes
+- CSS animations and JavaScript interactivity
+- A call-to-action for meal subscriptions
+
+This project is part of the learning journey and showcases clean code structure and best practices.
 
 ## Features
+- **Fully Responsive**: Works seamlessly on desktops, tablets, and mobile devices.
+- **Interactive Animations**: Smooth CSS transitions and JavaScript animations.
+- **Modern UI/UX**: Clean and intuitive user interface for an engaging experience.
+- **Custom Components**: Built with reusable components and modular structure.
 
-- **Never cook again**: Our subscriptions cover 365 days a year, including major holidays.
-- **Local and organic**: We use fresh, local, and organic ingredients in all our meals.
-- **No waste**: All our partners use reusable containers for packaging.
-- **Pause anytime**: Easily pause your subscription and get a refund for unused days.
+## Technologies Used
+The following tools and technologies were used to build Omnifood:
+- **HTML5**
+- **CSS3** (including Flexbox, Grid, Animations)
+- **JavaScript** (ES6)
+- **Google Fonts** for typography
+- **Icons**: Font Awesome for icons
 
-## How It Works
+## Installation
+To get a local copy of the project up and running, follow these steps:
 
-1. **Tell us what you like**: Input your dietary preferences and restrictions. Omnifood AI will create a personalized weekly meal plan that ensures you get all the necessary nutrients.
-2. **Approve your meal plan**: Review and adjust your weekly meal plan as needed. You can swap meals, change ingredients, or add your own recipes.
-3. **Receive your meals**: Get freshly prepared meals delivered to your door at your convenience. Adjust your delivery schedule and address as needed.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tekrajbhatta/omnifood.git
+   ```
 
-## Diet Compatibility
+2. Navigate to the project directory:
+   ```bash
+   cd omnifood
+   ```
 
-Omnifood works with various dietary preferences:
+3. Open the `index.html` file in your browser to view the website locally.
 
-- Vegetarian
-- Vegan
-- Pescatarian
-- Gluten-free
-- Lactose-free
-- Keto
-- Paleo
-- Low FODMAP
-- Kid-friendly
+## Usage
+- Download or clone the repository.
+- Use any modern browser to view the `index.html` file.
+- The project is static and does not require any additional dependencies.
 
-## Sample Meals
+## Contributing
+Contributions are always welcome! If you'd like to improve this project, follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your meaningful commit message"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Submit a Pull Request.
 
-**Omnifood AI selects from over 5,000 recipes:**
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
-1. **Japanese Gyozas**
-   - Vegetarian
-   - 650 calories
-   - NutriScore: 74
-   - Rating: 4.9 (537 reviews)
+## Contact
+If you have any questions or suggestions, feel free to reach out:
+- **GitHub**: [tekrajbhatta](https://github.com/tekrajbhatta)
+- **Email**: [tekbhatt1@gmail.com]
 
-2. **Avocado Salad**
-   - Vegan and Paleo
-   - 400 calories
-   - NutriScore: 92
-   - Rating: 4.8 (441 reviews)
-
-## Pricing Plans
-
-We offer two subscription plans, both including all applicable taxes and free delivery. Cancel anytime.
-
-- **Starter**: $399/month
-  - 1 meal per day
-  - Order between 11am and 9pm
-
-- **Complete**: $649/month
-  - 2 meals per day
-  - 24/7 ordering
-  - Access to latest recipes
-
-## Customer Testimonials
-
-> "Inexpensive, healthy, and great-tasting meals, without even having to order manually! It feels truly magical."  
-> — Dave Bryson
-
-> "The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!"  
-> — Ben Hadley
-
-> "Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!"  
-> — Steve Miller
-
-> "I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic."  
-> — Hannah Smith
-
-## Contact Information
-
-- **Address**: 623 Harrison St., 2nd Floor, San Francisco, CA 94107
-- **Phone**: 415-201-6370
-- **Email**: hello@omnifood.com
-
-## Social Media
-
-Follow us on Instagram, Facebook, and Twitter.
+---
+**Made with ❤️ by Tekraj Bhatta**
