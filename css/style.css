@@ -26,6 +26,7 @@ Paragraph Default: 1.6
 - Tints: 
 #fdf2e9
 #fae5de
+#eb984e
 - Shades: #cf711f
 - Accents:
 - Greys:
@@ -34,6 +35,9 @@ Paragraph Default: 1.6
 #6f6f6f Lightest Gray
 
 --- 03 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
 
 --- 04 BORDER-RADIUS
 Default: 9px
@@ -526,4 +530,35 @@ body {
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/*****************************/
+/* CTA SECTION */
+/*****************************/
+
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* grid-template-rows: 1fr auto; */
+  /* background-color: #616161; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  height: 400px;
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.cta-text-box {
+  /* background-color: teal; */
+}
+
+.cta-image-box {
+  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.3), rgba(230, 125, 34, 0.3)), 
+  url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 11px;
 }
