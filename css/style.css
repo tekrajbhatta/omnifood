@@ -549,10 +549,24 @@ body {
   height: 400px;
   border-radius: 11px;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
 }
 
 .cta-text-box {
   /* background-color: teal; */
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
+}
+
+.cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
 }
 
 .cta-image-box {
@@ -560,5 +574,12 @@ body {
   url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
-  border-radius: 11px;
+  /* border-radius: 11px; */
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
