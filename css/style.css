@@ -619,3 +619,6 @@ body {
   box-shadow: 0 0 0 8px rgba(253, 242, 233, 0.5);
 }
 
+.footer {
+  margin-bottom: 100px;
+}
